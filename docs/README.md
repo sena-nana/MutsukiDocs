@@ -6,11 +6,16 @@ heroImage:
 heroText: MutsukiBot
 tagline: 梦月Bot的使用说明书
 actions:
-  - text: 规则书 ⭐
-    link: /
+  - text: 说明书 ⭐
+    link: /main
     type: primary
 
 features:
+  - title: 世界第一可爱的梦月酱
+    icon: creative
+    details: 欸嘿~
+    link: /
+
 copyright: MIT Licensed / CC-BY-NC-SA | Copyright © 2022-present 星奈 Sena
 footer: 后面没有了哦~
 ---
