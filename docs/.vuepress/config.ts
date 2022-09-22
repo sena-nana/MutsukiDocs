@@ -5,7 +5,7 @@ export default defineUserConfig({
     lang: "zh-CN",
     title: "MutsukiBot",
     description: "梦月Bot的使用说明书",
-    base:"/mutsukidocs/",
+    base:"/MutsukiDocs/",
   theme,
   shouldPrefetch: false,
   plugins:[

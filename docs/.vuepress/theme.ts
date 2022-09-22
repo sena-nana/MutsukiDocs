@@ -18,7 +18,7 @@ export default hopeTheme({
   backToTop:true,
   iconAssets: "iconfont",
   logo: "",
-  repo: "sena-nana/mutsukibot",
+  repo: "sena-nana/MutsukiBot",
   lastUpdated:true,
   navbar: navbar,
   sidebar: {
