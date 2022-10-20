@@ -3,7 +3,7 @@ title: novelai
 order: 1
 icon: creative
 ---
-## 0.4.4_20221020
+## 0.4.5_20221020
 ### NEW
 - 添加了在线说明书
 ### FIX
