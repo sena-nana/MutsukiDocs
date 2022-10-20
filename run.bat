@@ -1,1 +1,1 @@
-pnpm docs:dev
+pnpm docs:clean-dev

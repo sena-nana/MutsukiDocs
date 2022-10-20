@@ -6,9 +6,11 @@ heroImage:
 heroText: MutsukiBot
 tagline: 梦月Bot的使用说明书
 actions:
-  - text: 说明书 ⭐
+  - text: 使用手册
     link: /main
     type: primary
+  - text: 更新日志
+    link: /update
 
 features:
   - title: 世界第一可爱的梦月酱

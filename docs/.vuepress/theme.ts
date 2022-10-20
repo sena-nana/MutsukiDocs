@@ -2,7 +2,7 @@ import { hopeTheme } from "vuepress-theme-hope";
 import navbar from "./navbar";
 
 export default hopeTheme({
-  hostname: "https://sena-nana.github.io",
+  hostname: "https://sena-nana.github.io/MutsukiDocs",
   author: {
     name: "星奈 Sena",
     url: "https://github.com/sena-nana",
@@ -23,20 +23,12 @@ export default hopeTheme({
   navbar: navbar,
   sidebar: {
     "/main/":"structure",
+    "/update/":"structure",
   },
   footer: "后面没有了哦~",
   displayFooter: true,
   copyright:"MIT Licensed / CC-BY-NC-SA | Copyright © 2022-present 星奈 Sena",
   pageInfo: ["Author", "ReadingTime","Word"],
-  blog: {
-    description: "一个不正经的 V",
-    intro: "/README.md",
-    medias: {
-      Bilibili: "https://space.bilibili.com/82717585",
-      Notion: "https://senanana.notion.com",
-      Github: "https://github.com/sena-nana",
-    },
-  },
   encrypt: {
     config: {
       "/guide/encrypt.html": ["1234"],
