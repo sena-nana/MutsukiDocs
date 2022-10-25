@@ -7,6 +7,8 @@ icon: creative
 ### 新功能
 - 现在回复中会添加使用的词条
 - 分群启用支持黑白名单了
+    - 原有的NOVELAI_BAN改为NOVELAI_ON(bool),即全局开启/关闭
+    - aidraw on逻辑与aidraw set逻辑合并，可以使用.aidraw set on True配置，同样保留了aidraw on的语法
 ### 修复
 - 修复了在0.4.7中屏蔽词误杀的问题
 - 修复了DeepL翻译引擎无法工作的问题,感谢[@pk4ever1](https://github.com/pk4ever1)帮助测试
