@@ -1,7 +1,7 @@
 ---
-title: 配置
+title: 进阶用法
 icon: markdown
-order: 2
+order: 1
 tag:
   - Markdown
 ---
