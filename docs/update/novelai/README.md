@@ -6,7 +6,17 @@ icon: creative
 > 目前处于功能完善阶段，可能会随着版本更新，对旧功能进行重写，导致设置格式变化、代码结构变化等多种问题，如发现之前的设置无法正常读取，请查看说明书跟进设置格式
 
 # 0.5.X
-## 0.5.3
+## 0.5.4
+### 重要更新
+- 兼容了Stable Diffusion，在设置中更改novelai_mode为"sd"，并设置novelai_site为"127.0.0.1:7860"(修改为你的服务器ip和端口)
+    - 必须在SD的webui-user.bat文件中，设置**set COMMANDLINE_ARGS=--api**，并使用webui-user.bat启动。否则bot无法连接到SD
+### 更新
+- 现在site为可选项，仅当你的服务器在非默认端口（naifu为6969，sd为7860）时需要设置
+### 更改
+- 现在合并消息中，默认会显示发送者为输入指令的人，可以通过设置novelai_antireport为False关闭
+### 修复
+- 修复了3.10非必要语法导致3.9报错的问题
+## 0.5.3_20221122
 ### 新功能
 - 现在将FIFO更名为AIDRAW，并且开放给其他插件，该类中包含了所有生成图片核心的部分（不包含预处理，翻译等），可以用于制作扩展
     - 使用**from nonebot_plugin_novelai import AIDRAW**导入
@@ -33,7 +43,7 @@ icon: creative
 - 现在合并消息中会显示使用的后端类型（实际是解决bug顺便加的x）
 ## 0.5.1_20221121
 ### 重要更新
-- 兼容了Naifu，在设置中更改novelai_mode为"naifu"，并设置novelai_site为"127.0.0.1:0000"(修改为你的服务器ip和端口)
+- 兼容了Naifu，在设置中更改novelai_mode为"naifu"，并设置novelai_site为"127.0.0.1:6969"(修改为你的服务器ip和端口)
 ### 破坏性更改
 - 合并了设置中部分设置
     - api_domain，site_domain合并为site
